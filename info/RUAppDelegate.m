@@ -7,7 +7,7 @@
 //
 
 #import "RUAppDelegate.h"
-#import "RUInfoViewController.h"
+#import "RUInfoComponent.h"
 
 @implementation RUAppDelegate
 
@@ -18,12 +18,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    UINavigationController * nav = [[UINavigationController alloc] init];
-    RUInfoViewController * info = [[RUInfoViewController alloc] initWithDelegate: self];
-    
-    [nav pushViewController:info animated:NO];
-    
-    self.window.rootViewController = nav;
+    RUInfoComponent * info = [[RUInfoComponent alloc] initWithDelegate: self];
+
+    self.window.rootViewController = info;
     return YES;
 }
 

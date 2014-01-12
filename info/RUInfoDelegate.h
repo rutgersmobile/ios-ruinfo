@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol RUInfoViewDelegate <NSObject>
+@protocol RUInfoDelegate <NSObject>
 
 - (void) onMenuButtonTapped;
 

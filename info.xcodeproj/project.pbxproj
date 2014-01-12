@@ -24,6 +24,7 @@
 		C2CA548D1881F41700841E1B /* RUInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA548C1881F41700841E1B /* RUInfoViewController.m */; };
 		C2CA54911881FB6B00841E1B /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C2CA548F1881FB6B00841E1B /* arrow.png */; };
 		C2CA54921881FB6B00841E1B /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2CA54901881FB6B00841E1B /* arrow@2x.png */; };
+		C2CA54951883277600841E1B /* RUInfoComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CA54941883277600841E1B /* RUInfoComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +57,11 @@
 		C2CA54891881F3EB00841E1B /* NUIStyle.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NUIStyle.nss; sourceTree = "<group>"; };
 		C2CA548B1881F41700841E1B /* RUInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUInfoViewController.h; sourceTree = "<group>"; };
 		C2CA548C1881F41700841E1B /* RUInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUInfoViewController.m; sourceTree = "<group>"; };
-		C2CA548E1881F44200841E1B /* RUInfoViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUInfoViewDelegate.h; sourceTree = "<group>"; };
+		C2CA548E1881F44200841E1B /* RUInfoDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUInfoDelegate.h; sourceTree = "<group>"; };
 		C2CA548F1881FB6B00841E1B /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		C2CA54901881FB6B00841E1B /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		C2CA54931883277600841E1B /* RUInfoComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUInfoComponent.h; sourceTree = "<group>"; };
+		C2CA54941883277600841E1B /* RUInfoComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUInfoComponent.m; sourceTree = "<group>"; };
 		C9D779B80E4A442084153910 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF89B797FC5433B8A2AC1EF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,9 +133,11 @@
 				C2CA54891881F3EB00841E1B /* NUIStyle.nss */,
 				C2CA548B1881F41700841E1B /* RUInfoViewController.h */,
 				C2CA548C1881F41700841E1B /* RUInfoViewController.m */,
+				C2CA54931883277600841E1B /* RUInfoComponent.h */,
+				C2CA54941883277600841E1B /* RUInfoComponent.m */,
 				C2CA548F1881FB6B00841E1B /* arrow.png */,
 				C2CA54901881FB6B00841E1B /* arrow@2x.png */,
-				C2CA548E1881F44200841E1B /* RUInfoViewDelegate.h */,
+				C2CA548E1881F44200841E1B /* RUInfoDelegate.h */,
 			);
 			path = info;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			files = (
 				C2CA54671881DD2F00841E1B /* main.m in Sources */,
 				C2CA546B1881DD2F00841E1B /* RUAppDelegate.m in Sources */,
+				C2CA54951883277600841E1B /* RUInfoComponent.m in Sources */,
 				C2CA548D1881F41700841E1B /* RUInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

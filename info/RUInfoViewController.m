@@ -18,7 +18,7 @@
 
 @implementation RUInfoViewController
 
-- (id)initWithDelegate: (id <RUInfoViewDelegate>) delegate {
+- (id)initWithDelegate: (id <RUInfoDelegate>) delegate {
     self = [super init];
     if (self) {
         self.navigationItem.title = @"RU-info";
