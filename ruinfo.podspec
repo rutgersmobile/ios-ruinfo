@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author       = { "Russ Frank" => "russ.frank@rutgers.edu" }
-  s.source       = { :git => "https://github.com/rutgersmobile/ios-ruinfo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/rutgersmobile/ios-ruinfo.git", :tag => "2.0.0" }
 
   s.source_files  = 'info/RUInfoTableViewController.*'
   s.requires_arc = true
