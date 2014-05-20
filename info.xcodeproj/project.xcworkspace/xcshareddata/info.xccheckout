@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>16301FA0-AE5C-48FC-94DE-095587D2AAA6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>info</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</key>
+		<string>https://github.com/rutgersmobile/ios-ruinfo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>info.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rutgersmobile/ios-ruinfo</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-ruinfo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

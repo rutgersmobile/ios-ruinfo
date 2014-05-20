@@ -14,13 +14,10 @@ Pod::Spec.new do |s|
   s.author       = { "Russ Frank" => "russ.frank@rutgers.edu" }
   s.source       = { :git => "https://github.com/rutgersmobile/ios-ruinfo.git", :tag => "0.0.1" }
 
-  s.source_files  = 'info/RUInfoViewController.*', 'info/RUInfoDelegate.h', 'info/RUInfoComponent.*'
-  s.resource  = "info/arrow*.png"
+  s.source_files  = 'info/RUInfoTableViewController.*'
   s.requires_arc = true
 
   s.platform      = :ios, '7.0'
 
-  s.dependency 'NUI', '~> 0.4.0'
-  s.dependency 'MGBoxKit', '~> 2.1.1'
 
 end

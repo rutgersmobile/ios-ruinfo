@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RUInfoDelegate.h"
 
-@interface RUAppDelegate : UIResponder <UIApplicationDelegate, RUInfoDelegate>
+@interface RUAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

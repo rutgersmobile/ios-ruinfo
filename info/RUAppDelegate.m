@@ -7,7 +7,7 @@
 //
 
 #import "RUAppDelegate.h"
-#import "RUInfoComponent.h"
+#import "RUInfoTableViewController.h"
 
 @implementation RUAppDelegate
 
@@ -17,10 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    RUInfoComponent * info = [[RUInfoComponent alloc] initWithDelegate: self];
 
-    self.window.rootViewController = info;
+    self.window.rootViewController = [RUInfoTableViewController component];
     return YES;
 }
 
