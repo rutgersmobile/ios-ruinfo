@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ruinfo"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "RU-Info channel for the Rutgers Mobile client, iOS."
 
   s.description  = <<-DESC
