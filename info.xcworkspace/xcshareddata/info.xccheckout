@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EA0EAE72-FFA3-4E7F-8A6A-6369D26A2220</string>
+	<string>CF4E6D40-E99C-4109-A1F3-D3DCA048841A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>info</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</key>
-		<string>https://github.com/rutgersmobile/ios-ruinfo</string>
+		<key>AFFFBB77-8DED-4CF6-BD24-A851F8EC95FB</key>
+		<string>https://github.com/rutgersmobile/ios-ruinfo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>info.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</key>
+		<key>AFFFBB77-8DED-4CF6-BD24-A851F8EC95FB</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/rutgersmobile/ios-ruinfo</string>
+	<string>https://github.com/rutgersmobile/ios-ruinfo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</string>
+	<string>AFFFBB77-8DED-4CF6-BD24-A851F8EC95FB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>146F87FA-C7A0-4C6C-B1D7-B3E12FC419CF</string>
+			<string>AFFFBB77-8DED-4CF6-BD24-A851F8EC95FB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ios-ruinfo</string>
 		</dict>

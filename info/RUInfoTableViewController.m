@@ -30,7 +30,7 @@
                             },
                           
                           @{@"header" :@"Text RU-Info",
-                            @"body" : @[@"Text RU-info with your question. \nTo sign up for RU-info TEXT:",
+                            @"body" : @[@"Text RU-info with your question. To sign up for RU-info TEXT:",
                                         @"Text 'Rutgers' to 66746",
                                         @"Or, if you have already signed up:",
                                         @"Text your question to 66746"]
