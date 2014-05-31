@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RUInfoTableViewController : UITableViewController 
-+(instancetype)component;
++(instancetype)componentForChannel:(NSDictionary *)channel;
 @end

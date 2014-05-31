@@ -14,10 +14,11 @@
 @property NSArray *infoData;
 @property NSIndexPath *phoneIndex;
 @property NSArray *textIndexes;
+@property NSIndexPath *mailIndex;
 @end
 
 @implementation RUInfoTableViewController
-+(instancetype)component{
++(instancetype)componentForChannel:(NSDictionary *)channel{
     return [[RUInfoTableViewController alloc] init];
 }
 - (instancetype)init
@@ -28,7 +29,7 @@
                             @"body" : @[@"Contact a helpful Information Assistant at RU-info with your Rutgers questions by calling, texting, or email.",
                                         @"Call (732-445-INFO)"]
                             },
-                          
+                    
                           @{@"header" :@"Text RU-Info",
                             @"body" : @[@"Text RU-info with your question. To sign up for RU-info TEXT:",
                                         @"Text 'Rutgers' to 66746",
@@ -47,6 +48,7 @@
                             }];
         self.phoneIndex = [NSIndexPath indexPathForRow:1 inSection:0];
         self.textIndexes = @[[NSIndexPath indexPathForRow:1 inSection:1],[NSIndexPath indexPathForRow:3 inSection:1]];
+        self.mailIndex = [NSIndexPath indexPathForRow:1 inSection:2];
     }
     return self;
 }
@@ -88,7 +90,7 @@
         cell.textLabel.numberOfLines = 1;
         cell.textLabel.font = [UIFont boldSystemFontOfSize:17];
         if (([self.phoneIndex isEqual:indexPath] && ![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"telprompt://732-445-INFO"]]) ||
-            ([self.textIndexes containsObject:indexPath] && ![MFMessageComposeViewController canSendText])) {
+            ([self.textIndexes containsObject:indexPath] && ![MFMessageComposeViewController canSendText]) || ([self.mailIndex isEqual:indexPath] && ![MFMailComposeViewController canSendMail])) {
             cell.userInteractionEnabled = NO;
             cell.textLabel.textColor = [UIColor grayColor];
         } else {
